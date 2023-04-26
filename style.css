@@ -1,3 +1,9 @@
+hmtl {
+  font-family: Impact, sans-serif;
+}
+hr {
+  margin-top: -40px;
+}
 ol {
   text-align: right;
 }
@@ -27,24 +33,31 @@ li {
   width: 400px;
   height: 50px;
 }
-
-.post-photo {
+.works{
+  text-align: center;
+  margin-top: 20px;
+}
+.work-title {
+  text-align: left;
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: -10;
+}
+.work-photo {
   float: left;
   width: 200px;
   height: 150px;
 }
-.post-text {
+.work-text {
   float: right;
   width: 400px;
   height: 200px;
   text-align: center;
 }
-
-.post-text > h2 {
+.work-text > h2 {
   text-align: left;
   padding-left: 20px;
 }
-
 div > p {
   float: left;
   margin-top: -5px;
@@ -74,19 +87,61 @@ div > p {
   margin-left: 20px;
   margin-top: 10px;
 }
-.post {
+.work {
   display: inline-block;
   border-bottom: 100px;
   margin-bottom: 20px;
 }
-.posts{
+.rec-posts {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 5px;  
+  background-color: #a7e6fb;
   text-align: center;
 }
-main {
-  margin-top: 50px;
-  margin-left: -5px;
-  margin-right: -5px;
-  background-color: #a7e6fb
+article {
+  background-color: white;
+  margin-top: 30px;
+  height: 120px;
+  width: 200px;
+  text-align: center;
 }
-
+.rec-post {
+  float: left;
+  margin-left: 30px;
+}
+.view {
+  float: right;
+  margin-right: 30px;
+}
+.left{
+  display: inline-block;
+  margin-left: 30px;
+}
+.right{
+  display: inline-block;
+  margin-right: 30px;
+}
+.post-date {
+  float: left;
+  text-align: center;
+  line-height: 20px;
+  width: 100px;
+}
+.post-type {
+  float: right;
+  text-align: center;
+  line-height: 20px;
+  width: 100px;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+footer > a > img {
+  height: 25px;
+  width: 25px;
+}
 

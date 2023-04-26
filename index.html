@@ -27,18 +27,29 @@
       </button>
     </header>
     <main>
-      <div>
-        Recents posts
-      </div>
-      <div>
-        View all
-      </div>
-    </main>
-    <div class='posts'>
-      <h3>Featured works</h3>
-      <div class='post'>
-        <img src=images/1.jpg class='post-photo'>
-        <div class='post-text'>
+      <section class='rec-posts'>
+        <div>
+          <div class='rec-post'>Recents posts</div>
+          <div class='view'><a href=''>View all</a></div>
+        </div>
+        <article class='post left'>
+          <h2>Post1</h2>
+          <div class='post-date'>00.00.0000</div>
+          <div class='post-type'>type</div>
+          <p>Какой то текст</p>
+        </article>
+        <article class='post right'>
+          <h2>Post2</h2>
+          <div class='post-date'>00.00.0000</div>
+          <div class='post-type'>type</div>
+          <p>Какой то текст</p>
+        </article>
+      </section>
+      <section class='works'>
+      <h4 class='work-title'>Featured works</h4>
+      <div class='work'>
+        <img src=images/1.jpg class='work-photo'>
+        <div class='work-text'>
           <h2>Пост 1</h2>
           <div class='god-tip'>
             <p class='year'>Год 1</p>
@@ -48,30 +59,41 @@
         </div>
       </div>
       <hr>
-      <div class='post'>
-        <img src=images/1.jpg class='post-photo'>
-        <div class='post-text'>
-          <h2>Пост 1</h2>
+      <div class='work'>
+        <img src=images/2.jpg class='work-photo'>
+        <div class='work-text'>
+          <h2>Пост 2</h2>
           <div class='god-tip'>
-            <p>Год 1</p>
-            <p>Тип</p>
+            <p class='year'>Год 2</p>
+            <p class='type'>Тип</p>
           </div>
-          <p>Краткое описание что это такое</p>
-        </div>  
+          <p class='desc'>Краткое описание что это такое</p>
+        </div>
       </div>
       <hr>
-      <div class='post'>
-        <img src=images/1.jpg class='post-photo'>
-        <div class='post-text'>
-          <h2>Пост 1</h2>
+      <div class='work'>
+        <img src=images/3.jpg class='work-photo'>
+        <div class='work-text'>
+          <h2>Пост 3</h2>
           <div class='god-tip'>
-            <p>Год 1</p>
-            <p>Тип</p>
+            <p class='year'>Год 3</p>
+            <p class='type'>Тип</p>
           </div>
-          <p>Краткое описание что это такое</p>
-        </div> 
+          <p class='desc'>Краткое описание что это такое</p>
+        </div>
       </div>
       <hr>
-    </div>
+    </section>
+    </main> 
+    <footer>
+      <a href='vk.com'><img src=icons/vk.png alt='vk'></a>
+      <a href='https://web.telegram.org/z/'><img src=icons/tg.png alt='telega'></a>
+      <a href='tiktok.com'><img src=icons/tt.png alt='tiktok'></a>
+      <a href='instagram.com'><img src=icons/insta.png alt='insta'></a>
+      <a href='facebook.com'><img src=icons/fb.png alt='facebook'></a>
+      <div>
+        copyright (c) lol
+      </div>
+    </footer>
   </body>
 </html>
